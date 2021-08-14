@@ -1,5 +1,5 @@
-Spaceman or hangman  
-A command line spaceman game. A general description of how the game is played, can be found here. 
+A command line hangman game.
+A general description of how the game is played, can be found [here](https://en.wikipedia.org/wiki/Hangman_(game)). 
 
 The game play requirements are as follows:
 
@@ -16,7 +16,7 @@ The game play requirements are as follows:
 - The system will display the current status of the game. If the word is "CAT", at the start of the game, the display will show "***". 
 As a user guesses letters correctly, the display will update. 
 If the user guesses "C", the display will show "C**". 
-If the user selects "Z", the display will continue to show "D**"
+If the user selects "Z", the display will continue to show "C**"
 - Guesses are treated case-insensitively but the word to be guessed should always maintain its entered case when any portion of it is displayed. 
 For example, if the word is "San Jose", and the user makes a first guess of 'A', "*a* ****" should be displayed.
 If there are any input or validation errors, the system will provide useful feedback about that error to the user.
